@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    padding: 0em 8em;
+}
+
+.portada {
+    background-color: black;
+    color: white;
+    padding: 1.0em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.tituloPrincipal {
+    padding: 0.5em;
+    text-align: center;
+}
+
+.cuadro {
+    border: 1px solid black;
+    padding: 1.2em;
+    margin-bottom: 2.0em;
+}
+
+.info {
+    display: flex;
+}
+
+.panelIzquierdo {
+    flex: 1;
+}
+
+.panelDerecho {
+    flex: 3;
+    margin-left: 1.5em;
+}
+
+.likear {
+    padding: 0.5em 2.0em;
+    background-color: rgb(240, 114, 11);
+    margin-right: 1.0em;
+    box-shadow: 2px 2px black;
+}
+
+.cabecera {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+.titulo {
+    flex: 2;
+}
+
+.cantidadLikes {
+    flex: 1;
+}
+
+img {
+    height: 100px;
+    margin-bottom: 1.0em;
+}
+
+.cuadroIzquierda {
+    text-align: center;
+}
+
+.cuadroIzquierda > h3{
+    margin: 1.0em 0em;
+}

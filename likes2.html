@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="./css/style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="pagina">
+        <div class="portada">Network</div>
+        <h2 class="tituloPrincipal">Your Feed</h2>
+        <div class="info">
+            <div class="panelIzquierdo">
+                <div class="cuadro cuadroIzquierda">
+                    <div>
+                        <img src="./img/user-circle.png" alt="">
+                    </div>
+                    <a href="#">Add an avatar</a>
+                    <h3>James Doe</h3>
+                </div>
+            </div>
+            <div class="panelDerecho">
+                <div class="cuadro">
+                    <div class="cabecera">
+                        <h2 class="titulo">Neil M</h2>
+                        <p id="likesNeil" class="cantidadLikes">1 like</p>
+                        <button id="btnNeil" onclick="likear(this)" class="likear">Like</button>
+                    </div>
+                    <div class="footer">
+                        <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                    </div>
+                </div>
+                <div class="cuadro">
+                    <div class="cabecera">
+                        <h2 class="titulo">Nichole K</h2>
+                        <p id="likesNichole" class="cantidadLikes">1 like</p>
+                        <button id="btnNichole" onclick="likear(this)" class="likear">Like</button>
+                    </div>
+                    <div class="footer">
+                        <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                    </div>
+                </div>
+                <div class="cuadro">
+                    <div class="cabecera">
+                        <h2 class="titulo">Jim R</h2>
+                        <p id="likesJim" class="cantidadLikes">1 like</p>
+                        <button id="btnJim" onclick="likear(this)" class="likear">Like</button>
+                    </div>
+                    <div class="footer">
+                        <p>I can't stop listening to the <a href="#">new album</a>. Who else is linking it</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/index2.js"></script>
+</body>
+</html>
